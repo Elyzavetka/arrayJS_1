@@ -21,3 +21,7 @@ console.log(arrThree);
 let arrFour = ['Inna', 'Kate', 'Ron',];
 arrFour.splice(1, 0, 'Lola', 'Robert');
 console.log(arrFour);
+
+let arrFive = ['Inna', 'Kate', 'Sonya',];
+arrFive.splice(-1, 1);
+console.log(arrFive);
